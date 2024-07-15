@@ -47,6 +47,6 @@ To get started with the **Climate Data RESTful API**, follow the steps outlined 
 
 5. Start the server
 
-  ```bash
+   ```bash
    npm run start
    ```
