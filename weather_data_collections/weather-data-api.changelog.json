@@ -1,0 +1,406 @@
+[{
+  "_id": {
+    "$oid": "65e9704f7b07b63870571340"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "65e9704a7b07b6387057133f"
+    },
+    "email": "sensor@email.com",
+    "password": "$2a$10$LQ6CTt/IaItCC/ebB6dljOFXyKGbqgFoCfSqrIp7tSE6KhBukMqcu",
+    "role": "student",
+    "authentication_key": null,
+    "last_login": null
+  },
+  "deletion_date_time": {
+    "$date": "2024-03-07T07:44:15.991Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65e9761e099e2aaa6358b0a0"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "65e975acecda450059d402ce"
+    },
+    "device_name": "Woodford_Sensor",
+    "precipitation": 0.081,
+    "atmospheric_pressure": 127.02,
+    "date_time": {
+      "$date": "1970-01-01T00:00:00.000Z"
+    },
+    "humidity": 73.24,
+    "latitude": 152.77892,
+    "longitude": -26.95064,
+    "max_wind_speed": 4.95,
+    "solar_radiation": 113.24,
+    "temp_celsius": 23.24,
+    "vapor_pressure": 1.74,
+    "wind_direction": 140.3
+  },
+  "deletion_date_time": {
+    "$date": "2024-03-07T08:09:02.493Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65eacfb68cd436ad1a015501"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "65eacfac8cd436ad1a015500"
+    },
+    "device_name": "Woodford_Sensor",
+    "precipitation": 0.086,
+    "atmospheric_pressure": 128.01,
+    "date_time": {
+      "$date": "2024-03-08T08:43:24.702Z"
+    },
+    "humidity": 71.23,
+    "latitude": 152.77891,
+    "longitude": -26.95064,
+    "max_wind_speed": 5.17,
+    "solar_radiation": 531.86,
+    "temp_celsius": 23.85,
+    "vapor_pressure": 1.77,
+    "wind_direction": 149.28
+  },
+  "deletion_date_time": {
+    "$date": "2024-03-08T08:43:34.949Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65eee55495101d69e8cf31da"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "65eeded95faa038b2dcdb275"
+    },
+    "email": "test123@test.com",
+    "password": "$2a$10$zFxwEw2YAWO8EEh74pNrJuzDCiJ6HfivnLHR4KFfGrOa.teZGaf32",
+    "role": "student",
+    "authentication_key": null,
+    "creation_date": {
+      "$date": "2024-03-11T10:37:13.480Z"
+    },
+    "last_login": null
+  },
+  "deletion_date_time": {
+    "$date": "2024-03-11T11:04:52.870Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f146095c195c9530072fa8"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "65f13c027111c4a2a0a4c81d"
+    },
+    "email": "updatedUser@email.com",
+    "password": "$2a$10$h.okT9cWb7YAMRlhdaksM.yGcvNV0OT.NdYuRdCF7bZ5S7QYulOVy",
+    "role": "student",
+    "authentication_key": null,
+    "last_login": null
+  },
+  "deletion_date_time": {
+    "$date": "2024-03-13T06:22:01.835Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f149bbfe78864d09168f75"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "65f148f2fe78864d09168f74"
+    },
+    "device_name": "Woodford_Sensor",
+    "precipitation": 0.086,
+    "atmospheric_pressure": 128.01,
+    "date_time": {
+      "$date": "2024-03-13T06:34:26.761Z"
+    },
+    "humidity": 70.23,
+    "latitude": 152.77891,
+    "longitude": -26.95064,
+    "max_wind_speed": 5.17,
+    "solar_radiation": 521.86,
+    "temp_celsius": 23.85,
+    "vapor_pressure": 1.77,
+    "wind_direction": 150.28
+  },
+  "deletion_date_time": {
+    "$date": "2024-03-13T06:37:47.196Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f14cc026ccc24d41f7932e"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "65e90306b2dac8e24643514b"
+    },
+    "email": "updatedUser@email.com",
+    "password": "$2a$10$uVBisCclNb9jLJ1e1rf1Cue9JP721nlNnLApReNcweTBTb6jiNcs2",
+    "role": "student",
+    "authentication_key": null,
+    "creation_date": null,
+    "last_login": null
+  },
+  "deletion_date_time": {
+    "$date": "2024-03-13T06:50:40.735Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f90b0714e24b38c6e54965"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "65f81b09c2064afef3dc1c53"
+    },
+    "email": "updatedUser@email.com",
+    "password": "$2a$10$P/M3Z3Ax9y7b2LWd6N4trOyEim9DiuObQKAHeaIzyxIn6Vg9yOEla",
+    "role": "student",
+    "authentication_key": null,
+    "creation_date": null,
+    "last_login": null
+  },
+  "deletion_date_time": {
+    "$date": "2024-03-19T03:48:23.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f90b4f39834f80d1e5f8b4"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "65f13c906887153d598703fd"
+    },
+    "email": "testme123@email.com",
+    "password": "$2a$10$6OUK6dYwWVNuNT0J4WeivO6ec1V0uWjx2eZx9RzHk3nb2s25aZcQi",
+    "role": "teacher",
+    "authentication_key": null,
+    "creation_date": {
+      "$date": "2024-03-11T05:41:36.101Z"
+    },
+    "last_login": null
+  },
+  "deletion_date_time": {
+    "$date": "2024-03-19T03:49:35.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f90b92127da5542b9c29ae"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "65f90b7439834f80d1e5f8b5"
+    },
+    "email": "test@email.com",
+    "password": "$2a$10$JitOB9wbGCFh6xAB1L2Xc.uZhpS6Xs6ulMuA1swwTFOLDoimkx2/.",
+    "role": "student",
+    "authentication_key": null,
+    "creation_date": {
+      "$date": "2024-03-19T03:50:12.843Z"
+    },
+    "last_login": null
+  },
+  "deletion_date_time": {
+    "$date": "2024-03-19T03:50:42.561Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65fbc0f32aa210ce8ad5035d"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "65fbc0822aa210ce8ad5035c"
+    },
+    "device_name": "Woodford_Sensor",
+    "precipitation": 0.086,
+    "atmospheric_pressure": 128.01,
+    "date_time": {
+      "$date": "2024-03-21T05:07:14.158Z"
+    },
+    "humidity": 71.23,
+    "latitude": 152.77891,
+    "longitude": -26.95064,
+    "max_wind_speed": 5.17,
+    "solar_radiation": 531.86,
+    "temp_celsius": 23.85,
+    "vapor_pressure": 1.77,
+    "wind_direction": 149.28
+  },
+  "deletion_date_time": {
+    "$date": "2024-03-21T05:09:07.018Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6603ad168d41ed0532212fa2"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "6603acf28d41ed0532212fa1"
+    },
+    "device_name": "Woodford_Sensor",
+    "precipitation": 0.08,
+    "atmospheric_pressure": 128.01,
+    "date_time": {
+      "$date": "2024-03-27T05:21:54.638Z"
+    },
+    "humidity": 70.23,
+    "latitude": 152.77891,
+    "longitude": -23.95064,
+    "max_wind_speed": 5.17,
+    "solar_radiation": 531.86,
+    "temp_celsius": 25.85,
+    "vapor_pressure": 1.77,
+    "wind_direction": 150.28
+  },
+  "deletion_date_time": {
+    "$date": "2024-03-27T05:22:30.572Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6603ade88d41ed0532212fa8"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "6603adc98d41ed0532212fa7"
+    },
+    "email": "updatedUser@email.com",
+    "password": "$2a$10$dFJVB8C8pRMOvshxLYW83Ow/KqwddQesAfCBdoZIxW9wSX1rWK.z.",
+    "role": "student",
+    "authentication_key": null,
+    "creation_date": null,
+    "last_login": null
+  },
+  "deletion_date_time": {
+    "$date": "2024-03-27T05:26:00.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "661cf7dfffdbb0057f77f0a9"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "65e95c3f1947922f4c7ce492"
+    },
+    "email": "homelander@email.com",
+    "password": "$2a$10$./piBlFWAaYQh4Aq8DcwrupfaZvOgWJ4Ytr9w5dStksrN2qgWWdOe",
+    "role": "teacher",
+    "authentication_key": null,
+    "creation_date": null,
+    "last_login": null
+  },
+  "deletion_date_time": {
+    "$date": "2024-04-15T09:48:15.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "661cf7f2ffdbb0057f77f0aa"
+  },
+  "deleted_record_details": {
+    "_id": {
+      "$oid": "65f13c906887153d598703fd"
+    },
+    "email": "testme123@email.com",
+    "password": "$2a$10$6OUK6dYwWVNuNT0J4WeivO6ec1V0uWjx2eZx9RzHk3nb2s25aZcQi",
+    "role": "teacher",
+    "authentication_key": null,
+    "creation_date": {
+      "$date": "2024-03-11T05:41:36.101Z"
+    },
+    "last_login": null
+  },
+  "deletion_date_time": {
+    "$date": "2024-04-15T09:48:34.623Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66259a2b7b45fb827f6fdf3d"
+  },
+  "deletion_details": {
+    "_id": {
+      "$oid": "65d5bf07c0e7a12ce708cf2d"
+    },
+    "device_name": "Woodford_Sensor",
+    "precipitation": 0.068,
+    "atmospheric_pressure": 128.29,
+    "date_time": {
+      "$date": "2021-05-06T09:44:06.000Z"
+    },
+    "humidity": 77.45,
+    "latitude": 152.77891,
+    "longitude": -26.95064,
+    "max_wind_speed": 3.09,
+    "solar_radiation": 0,
+    "temp_celsius": 21.31,
+    "vapor_pressure": 1.68,
+    "wind_direction": 173.02
+  },
+  "deletion_reason": "Invalid weather reading",
+  "deletion_date_time": {
+    "$date": "2024-04-21T22:58:51.604Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6628bc1395c5d315c396f77a"
+  },
+  "deleted_user_details": {
+    "_id": {
+      "$oid": "6628bbe295c5d315c396f779"
+    },
+    "email": "updatedUser@email.com",
+    "password": "$2a$10$Udxf7pMlwAfPNzmHJ3kVXeHJ3O1KljHPfKxH9g/0eGrSzl9dBGZGm",
+    "role": "student",
+    "authentication_key": null,
+    "creation_date": null,
+    "last_login": null
+  },
+  "deletion_date_time": {
+    "$date": "2024-04-24T08:00:19.914Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6628bcd47b45fb827fe92453"
+  },
+  "deletion_details": {
+    "_id": {
+      "$oid": "6628bcb195c5d315c396f77c"
+    },
+    "device_name": "Woodford_Sensor",
+    "precipitation": 0.086,
+    "atmospheric_pressure": 128.01,
+    "date_time": {
+      "$date": "2024-04-24T08:02:57.294Z"
+    },
+    "humidity": 71.23,
+    "latitude": 152.77891,
+    "longitude": -26.95064,
+    "max_wind_speed": 5.17,
+    "solar_radiation": 531.86,
+    "temp_celsius": 23.85,
+    "vapor_pressure": 1.77,
+    "wind_direction": 149.28
+  },
+  "deletion_reason": "Invalid weather reading",
+  "deletion_date_time": {
+    "$date": "2024-04-24T08:03:32.208Z"
+  }
+}]

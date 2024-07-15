@@ -1,0 +1,237 @@
+components:
+  schemas:
+    WeatherReading:
+      type: object
+      properties:
+        # _id:
+        #   type: string
+        #   example: "65d5bf07c0e7a12ce708cec3"
+        device_name:
+          type: string
+          example: "Woodford_Sensor"
+        precipitation:
+          type: number
+          format: double
+          example: 0.086
+        atmospheric_pressure:
+          type: number
+          format: double
+          example: 128.01
+        date_time:
+          type: string
+          format: date-time
+        humidity:
+          type: number
+          format: double
+          example: 71.23
+        latitude:
+          type: number
+          format: double
+          example: 152.77891
+        longitude:
+          type: number
+          format: double
+          example: -26.95064
+        max_wind_speed:
+          type: number
+          format: double
+          example: 5.17
+        solar_radiation:
+          type: number
+          format: double
+          example: 531.86
+        temp_celsius:
+          type: number
+          format: double
+          example: 23.85
+        vapor_pressure:
+          type: number
+          format: double
+          example: 1.77
+        wind_direction:
+          type: number
+          format: double
+          example: 149.28
+    NewWeatherReading:
+      type: object
+      properties:
+        device_name:
+          type: string
+          example: Woodford_Sensor
+        precipitation:
+          type: number
+          format: double
+          example: 0.086
+        atmospheric_pressure:
+          type: number
+          format: double
+          example: 128.01
+        date_time:
+          type: string
+          format: date-time
+        humidity:
+          type: number
+          format: double
+          example: 71.23
+        latitude:
+          type: number
+          format: double
+          example: 152.77891
+        longitude:
+          type: number
+          format: double
+          example: -26.95064
+        max_wind_speed:
+          type: number
+          format: double
+          example: 5.17
+        solar_radiation:
+          type: number
+          format: double
+          example: 531.86
+        temp_celsius:
+          type: number
+          format: double
+          example: 23.85
+        vapor_pressure:
+          type: number
+          format: double
+          example: 1.77
+        wind_direction:
+          type: number
+          format: double
+          example: 149.28
+    User:
+      type: object
+      properties:
+        # _id:
+        #   type: string
+        #   example: 65b9f355ff2ee2cc6c66a291
+        email:
+          type: string
+          format: email
+          example: test@test.com
+        password:
+          type: string
+          format: password
+        role:
+          type: string
+          enum:
+            - student
+            - sensor
+            - teacher
+        authentication_key:
+          type: string
+          nullable: true
+          example: null
+        creation_date:
+          type: string
+          nullable: true
+          format: date-time
+          example: null
+        last_login:
+          type: string
+          nullable: true
+          format: date-time
+          example: null
+    NewUser:
+      type: object
+      properties:
+        email:
+          type: string
+          format: email
+          example: test@test.com
+        password:
+          type: string
+          format: password
+        role:
+          type: string
+          enum:
+            - student
+            - sensor
+            - teacher
+        authentication_key:
+          type: string
+          nullable: true
+          example: null
+        creation_date:
+          type: string
+          nullable: true
+          format: date-time
+          example: null
+        last_login:
+          type: string
+          nullable: true
+          format: date-time
+          example: null
+  responses:
+    500_DatabaseError:
+      description: Database error
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              status:
+                type: integer
+              message:
+                type: string
+            example:
+              status: 500
+              message: "Error processing the request"
+    404_NotFound:
+      description: Failed to retrieve request
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              status:
+                type: integer
+              message:
+                type: string
+            example:
+              status: 404
+              message: "Failed to retrieve request"
+    400_InvalidRequest:
+      description: Invalid request
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              status:
+                type: integer
+              message:
+                type: string
+            example:
+              status: 400
+              message: "Invalid request"
+    403_ForbiddenRequest:
+      description: Access forbidden
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              status:
+                type: integer
+              message:
+                type: string
+            example:
+              status: 403
+              message: "Access forbidden"
+    401_Unauthorised:
+      description: Unauthorised access
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              status:
+                type: integer
+              message:
+                type: string
+            example:
+              status: 401
+              message: "Unauthorised access"

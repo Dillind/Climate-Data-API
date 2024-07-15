@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "66318c8bd571813a924691a0"
+  },
+  "email": "dylan@email.com",
+  "password": "$2a$10$ZUzY/J5Muy0g/0zCaEU/seg5FPltZd7CH31piD.Yhnx7GCN4XM4hi",
+  "role": "teacher",
+  "authentication_key": "5fbcaba9-0df3-4337-9ef7-5384b8eff32d",
+  "creation_date": {
+    "$date": "2024-05-01T00:27:55.923Z"
+  },
+  "last_login": {
+    "$date": "2024-07-15T05:19:20.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66318ce7d571813a924691a1"
+  },
+  "email": "bob@email.com",
+  "password": "$2a$10$sRVOhqbr1H5HIx949fAqg.i0jZzfsNypCayYEjIA8g4shBm5AMiWi",
+  "role": "student",
+  "authentication_key": null,
+  "creation_date": {
+    "$date": "2024-05-01T00:29:27.700Z"
+  },
+  "last_login": null
+},
+{
+  "_id": {
+    "$oid": "66318cf0d571813a924691a2"
+  },
+  "email": "testing@email.com",
+  "password": "$2a$10$2yG2vGE6rOfoq4vQ4iHcjecIGUOYEfxX1bWMPIc12r1m3I3WFmW56",
+  "role": "student",
+  "authentication_key": null,
+  "creation_date": {
+    "$date": "2024-05-01T00:29:36.324Z"
+  },
+  "last_login": null
+},
+{
+  "_id": {
+    "$oid": "66318cf9d571813a924691a3"
+  },
+  "email": "sensor@email.com",
+  "password": "$2a$10$gYtaqxuIzu3pPzAtHZ1qN.T9/0mxJkq333OxVQ717vJZ4q3CtmfuK",
+  "role": "sensor",
+  "authentication_key": null,
+  "creation_date": {
+    "$date": "2024-05-01T00:29:45.922Z"
+  },
+  "last_login": null
+},
+{
+  "_id": {
+    "$oid": "66947be968db111a7b9996d3"
+  },
+  "email": "test@test.com",
+  "password": "$2a$10$c1VPX7jAXO8YUCtHbXHi0ulipTNzW76fEhkeCqkrHr5DDLVFhioR2",
+  "role": "student",
+  "creation_date": {
+    "$date": "2024-07-15T01:31:21.362Z"
+  }
+}]
